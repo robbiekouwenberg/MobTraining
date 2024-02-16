@@ -10,8 +10,8 @@ public class FizzBuzzTests
     public void WritesCorrectOutputForCount()
     {
         // Arrange
-        int count = 0;
-        string expected = "";
+        int count = 16;
+        string expected = ExpectedFizzBuzz;
 
         var writer = new StringWriter();
         Console.SetOut(writer);
