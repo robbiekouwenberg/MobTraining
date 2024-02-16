@@ -12,14 +12,13 @@ public class FizzBuzzTests
         // Arrange
         int count = 16;
         string expected = ExpectedFizzBuzz;
-
-        var writer = new StringWriter();
-        Console.SetOut(writer);
+        
+        var fizzBuzzer = new FizzBuzzer();        
 
         // Act
-        Program.Main([$"{count}"]);
+        var actual = fizzBuzzer.FizzBuzz(count);
 
         // Assert        
-        Assert.Equal(expected, writer.GetStringBuilder().ToString().Trim());
+        Assert.Equal(expected, actual);
     }
 }
