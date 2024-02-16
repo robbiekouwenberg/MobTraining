@@ -100,3 +100,36 @@ Hints:
 > ```console
 > ptw
 > ```
+
+### Java
+
+This is a Java console application with supporting tests using junit.
+
+> Note: the author knows barely anything about java. improvements are appreciated.
+
+```
+│───run.cmd
+│───test.cmd
+│
+├───.vscode
+│   └───settings.json
+│
+├───lib
+│   └───junit-platform-console-standalone-1.10.2.jar
+│
+└───src
+    ├───App.java
+    ├───FizzBuzzer.java
+    └───FizzBuzzerTest.java
+```
+
+Hints:
+- Running the application 
+> ```console
+> run.cmd
+> ```
+
+- Running the tests manually
+> ```console
+> test.cmd
+> ```

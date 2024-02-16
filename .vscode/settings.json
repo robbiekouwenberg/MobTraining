@@ -1,0 +1,14 @@
+{
+    "java.project.sourcePaths": ["java\\FizzBuzz\\src"],
+    "java.project.outputPath": "java\\FizzBuzz\\bin",
+    "java.project.referencedLibraries": [
+        "java\\FizzBuzz\\lib/**/*.jar"
+    ],
+    "java.configuration.runtimes": [        
+        {
+          "name": "JavaSE-17",
+          "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.2.13-hotspot",
+          "default": true
+        },
+      ]
+}
